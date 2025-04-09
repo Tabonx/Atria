@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: PathRoute? = .descriptionConvertor
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationSplitView {
+            List(selection: $selection) {
+                NavigationLink("Description Convertor", value: PathRoute.descriptionConvertor)
+            }
+            .navigationTitle("Sidebar")
+        } detail: {
+            switch selection {
+            case .descriptionConvertor:
+                DescriptionConvertorScreen()
+            case nil:
+                Text("Select a screen")
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
         }
-        .padding()
     }
 }
 

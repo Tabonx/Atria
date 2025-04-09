@@ -13,5 +13,6 @@ struct atriaApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.titleBar)
     }
 }
