@@ -6,26 +6,31 @@
       "size" : "16x16"
     },
     {
+      "filename" : "32-atria 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
+      "filename" : "32-atria.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
+      "filename" : "64-atria.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
+      "filename" : "128-atria.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
+      "filename" : "256-atria.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
@@ -41,11 +46,13 @@
       "size" : "256x256"
     },
     {
+      "filename" : "512-atria.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
+      "filename" : "1024-atria.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

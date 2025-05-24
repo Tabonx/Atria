@@ -51,7 +51,7 @@ struct DescriptionConvertorScreen: View {
             if line.hasPrefix("### ") {
                 // Convert markdown header to plain text
                 result += line.replacingOccurrences(of: "### ", with: "") + "\n"
-            } else if line.hasPrefix("- ") {
+            } else if line.hasPrefix("- ") || line.hasPrefix("* ") {
                 // Convert markdown bullet to App Store bullet
                 result += "• " + line.dropFirst(2) + "\n"
             } else if line.contains("[") && line.contains("](") {
