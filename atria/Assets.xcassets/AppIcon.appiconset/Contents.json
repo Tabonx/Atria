@@ -1,12 +1,13 @@
 {
   "images" : [
     {
+      "filename" : "16-atria.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "32-atria 1.png",
+      "filename" : "32-atria.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
@@ -36,11 +37,13 @@
       "size" : "128x128"
     },
     {
+      "filename" : "256-atria.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
+      "filename" : "512-atria.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
